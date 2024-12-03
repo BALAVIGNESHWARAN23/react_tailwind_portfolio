@@ -23,7 +23,7 @@ export default function Contact()  {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://react-portfolio-backend-sigma.vercel.app/", {
+      const response = await fetch("https://balavigneshwaran-portfolio-backend.vercel.app/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

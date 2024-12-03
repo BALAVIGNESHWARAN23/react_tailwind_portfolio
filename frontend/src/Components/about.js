@@ -1,6 +1,6 @@
 
-import bala2 from "D:/githubreptasks/first_react_app/redsun/src/assets/images/Aboutpic.png";
-
+import bala2 from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/images/Aboutpic.png";
+import bala_resume from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/pdf/Balavigneshwaran p_resume.pdf";
 import React, { useState } from "react";
 import {
   LinkIcon,DocumentIcon
@@ -33,7 +33,7 @@ export default function About (){
         Resume: [
           {
             name: "Resume",
-            url: "https://example.com/your-resume.pdf", 
+            url: bala_resume,
           },
         ],
         Link: [

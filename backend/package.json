@@ -15,5 +15,10 @@
   },
   "author": "Balavigneshwaran p",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "22.x"
+  }
 }
+
+  

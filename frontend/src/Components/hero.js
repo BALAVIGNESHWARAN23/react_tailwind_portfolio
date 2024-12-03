@@ -1,5 +1,5 @@
-import bala from "D:/githubreptasks/first_react_app/redsun/src/assets/images/hero-removebg (1).png";
-import { ReactComponent as SvgCurve } from "D:/githubreptasks/first_react_app/redsun/src/assets/svg/SVG curve.svg";
+import bala from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/images/hero-removebg (1).png";
+import { ReactComponent as SvgCurve } from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/svg/SVG curve.svg";
 import { useEffect, useRef } from "react";
 import React from 'react';
 import Typed from "typed.js";

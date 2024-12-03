@@ -22,12 +22,16 @@
     "typewriter-effect": "^2.21.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-  "start": "react-scripts start",
-  "build": "npm install --legacy-peer-deps && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "env": {
+      "NODE_VERSION": "16"
+    }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app",

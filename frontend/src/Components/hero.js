@@ -1,4 +1,4 @@
-import bala from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/images/hero-removebg (1).png";
+import bala from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/images/hero-removebg.png";
 import { ReactComponent as SvgCurve } from "D:/githubreptasks/react_tailwind_portfolio/frontend/src/assets/svg/SVG curve.svg";
 import { useEffect, useRef } from "react";
 import React from 'react';
